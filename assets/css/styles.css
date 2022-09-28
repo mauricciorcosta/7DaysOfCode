@@ -1,0 +1,31 @@
+
+/* ---------------------  Fontes  ----------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* ------------------- StyleSheets --------------------- */
+@import url(/assets/css/header.css);
+@import url(/assets/css/sobre.css);
+@import url(/assets/css/metricas.css);
+@import url(/assets/css/vagas.css);
+@import url(/assets/css/depoimentos.css);
+@import url(/assets/css/footer.css);
+
+/* --------------------- Cores -------------------------*/
+:root {
+    --branco: #FFFFFF;
+    --cinza-claro: #667085;
+    --cinza-medio: #3A404E;
+    --cinza-escuro: #101828;
+    --vinho: #8E2424;
+    --vinho-fundo: rgba(142, 36, 36, 0.05);
+    --off-white: #EAECF0;
+    --borda-input: #D0D5DD;
+    --cinza-direitos: #98A2B3;
+    --fundo-rodape: #F9FAFB;
+}
+
+
+body {
+    font-family: Inter;
+    color: var(--cinza-escuro);
+}

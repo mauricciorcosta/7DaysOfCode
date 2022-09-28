@@ -1,0 +1,46 @@
+.rodape {
+    text-align: center;
+    background-color: var(--fundo-rodape);
+    padding: 5em;
+}
+
+.rodape__titulo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape__descricao {
+    color: var(--cinza-claro);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+.rodape__input {
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    border: 1px solid var(--borda-input);
+    margin: 3em 0;
+    width: 25%;
+}
+
+.rodape__botao {
+    background-color: var(--vinho);
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 1em;
+}
+
+.rodape__botao--link {
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.rodape__direitos {
+    color: var(--cinza-direitos);
+    font-size: 16px;
+    font-weight: 400;
+}

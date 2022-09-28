@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 5em;
+}
+
+.menu {
+    margin-right: auto;
+    padding-left: inherit;
+}
+
+.menu__lista {
+    display: flex;
+}
+
+.menu__link {
+    margin-right: 2em;
+    color: var(--cinza-claro);
+    text-decoration: none;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login__link-entrar {
+    text-decoration: none;
+    color: var(--cinza-claro);
+    margin-right: 2em;
+}
+
+.login__link-cadastrar {
+    background-color: var(--vinho);
+    color: var(--branco);
+    border-radius: 10px;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__imagem {
+    margin-right: 0.5em;
+}
+
+.logo__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
